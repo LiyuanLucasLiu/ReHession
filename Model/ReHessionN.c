@@ -650,6 +650,8 @@ void TrainModel() {
       copyIns(&tmpIns, data + a);
       copyIns(data + a, data + b);
       copyIns(data + b, &tmpIns);
+    }
+    for (a = 0; a < ins_num; ++a) {
       //count
       for (b = data[a].c_num; b; --b) {
         ++cCount[data[a].cList[b-1]];
