@@ -17,6 +17,8 @@
 #include <math.h>
 #include <pthread.h>
 
+typedef float real;
+
 #define MAX_STRING 100
 #define EXP_TABLE_SIZE 1200
 #define MAX_EXP 6
@@ -37,8 +39,8 @@
 
 #ifdef DROPOUT
 #define DROPOUTRATIO 100000
+real dropout = 0.3 * DROPOUTRATIO;
 #endif
-typedef float real;
 
 struct supervision {
   long long function_id;
@@ -55,13 +57,12 @@ struct training_ins {
 
 char train_file[MAX_STRING], test_file[MAX_STRING];
 long long  *cCount;
-int debug_mode = 2, resample = 20, num_threads = 1, min_reduce = 1, ignore_none = 0, error_log = 0;
-long long c_size = 0, c_length = 100, l_size = 1, l_length = 400, d_size, tot_c_count = 0, NONE_idx = 6;
+int debug_mode = 2, resample = 20, num_threads = 20, min_reduce = 1, ignore_none = 0, error_log = 0;
+long long c_size = 0, c_length = 150, l_size = 1, l_length = 250, d_size, tot_c_count = 0, NONE_idx = 6;
 real lambda1 = 1, lambda2 = 1;
 long long ins_num = 225977, ins_count_actual = 0; 
 long long test_ins_num = 2111;
-long long iters = 10;
-long print_every = 1000;
+long long iters = 20;
 real alpha = 0.025, starting_alpha, sample = 1e-4;
 real cv_ratio = 0.1;
 
@@ -74,11 +75,8 @@ real ph1, ph2;
 
 real *sigTable, *expTable, *tanhTable;
 clock_t start;
-#ifdef DROPOUT 
-real dropout;
-#endif
 
-int negative = 5;
+int negative = 1;
 const int table_size = 1e9;
 long long *table;
 
@@ -893,35 +891,54 @@ int main(int argc, char **argv) {
     printf("ReHession alpha 1.0\n\n");
     printf("Options:\n");
     printf("Parameters for training:\n");
-    printf("-cleng\n-lleng\n-train\n-debug\n-binary\n-alpha\n-resample\n-sample\n-negative\n-threads\n-min-count\n-instances\n-infer_together\n-alpha_update_every\n-iter\n-none_idx\n-no_lb\n-no_db\n-lambda1\n-lambda2\n-grad_clip\n-ingore_none\n-error_log\n-dropout(D Mode)\nlambda1: skip-gram\nlambda2: truth finding\nlambda3: l\nlambda4: d\nlambda5: o\n lambda6: c\n");
+    printf("-cleng\n-lleng\n-train\n-debug\n-alpha\n-test\n-resample\n-sample\n-negative\n-threads\n-instances\n-test_instances\n-iter\n-none_idx\n-lambda1\n-lambda2\n-ingore_none\n-error_log\n-dropout(D Mode)\ncv_ratio\n");
     printf("\nExamples:\n");
-    printf("./rmodify -train /shared/data/ll2/CoType/data/intermediate/KBP/train.data -test /shared/data/ll2/CoType/data/intermediate/KBP/test.data -threads 20 -NONE_idx 6 -cleng 30 -lleng 50 -resample 30 -ignore_none 0 -iter 100 -debug 2 -dropout 0.5\n\n");//-none_idx 5 
+    printf("./Model/ReHession -train ./Data/intermediate/KBP/train.data -test ./Data/intermediate/KBP/test.data -none_idx 6 -instances 225977 -test_instances 2111\n\n");//-none_idx 5 
     return 0;
   }
   test_file[0] = 0;
   train_file[0] = 0;
   if ((i = ArgPos((char *)"-cleng", argc, argv)) > 0) c_length = atoi(argv[i + 1]);
+  if (debug_mode > 1) printf("c_length: %lld\n", c_length);
   if ((i = ArgPos((char *)"-lleng", argc, argv)) > 0) l_length = atoi(argv[i + 1]);
+  if (debug_mode > 1) printf("l_length: %lld\n", l_length);
   if ((i = ArgPos((char *)"-train", argc, argv)) > 0) strcpy(train_file, argv[i + 1]);
+  if (debug_mode > 1) printf("train_file: %s\n", train_file);
   if ((i = ArgPos((char *)"-debug", argc, argv)) > 0) debug_mode = atoi(argv[i + 1]);
+  if (debug_mode > 1) printf("debug_mode: %d\n", debug_mode);
   if ((i = ArgPos((char *)"-alpha", argc, argv)) > 0) alpha = atof(argv[i + 1]);
+  if (debug_mode > 1) printf("alpha: %f\n", alpha);
   if ((i = ArgPos((char *)"-test", argc, argv)) > 0) strcpy(test_file, argv[i + 1]);
+  if (debug_mode > 1) printf("test_file: %s\n", test_file);
   if ((i = ArgPos((char *)"-resample", argc, argv)) > 0) resample = atoi(argv[i + 1]);
+  if (debug_mode > 1) printf("resample: %d\n", resample);
   if ((i = ArgPos((char *)"-sample", argc, argv)) > 0) sample = atof(argv[i + 1]);
+  if (debug_mode > 1) printf("sample: %f\n", sample);
   if ((i = ArgPos((char *)"-negative", argc, argv)) > 0) negative = atoi(argv[i + 1]);
+  if (debug_mode > 1) printf("negative: %d\n", negative);
   if ((i = ArgPos((char *)"-threads", argc, argv)) > 0) num_threads = atoi(argv[i + 1]);
+  if (debug_mode > 1) printf("threads: %d\n", num_threads);
   if ((i = ArgPos((char *)"-instances", argc, argv)) > 0) ins_num = atoi(argv[i + 1]);
+  if (debug_mode > 1) printf("instances: %lld\n", ins_num);
   if ((i = ArgPos((char *)"-test_instances", argc, argv)) > 0) test_ins_num = atoi(argv[i + 1]);
-  if ((i = ArgPos((char *)"-alpha_update_every", argc, argv)) > 0) print_every = atoi(argv[i + 1]);
+  if (debug_mode > 1) printf("test_instances: %lld\n", test_ins_num);
   if ((i = ArgPos((char *)"-iter", argc, argv)) > 0) iters = atoi(argv[i + 1]);
+  if (debug_mode > 1) printf("iters: %lld\n", iters);
   if ((i = ArgPos((char *)"-none_idx", argc, argv)) > 0) NONE_idx = atoi(argv[i + 1]);
+  if (debug_mode > 1) printf("none_idx: %lld\n", NONE_idx);
   if ((i = ArgPos((char *)"-ignore_none", argc, argv)) > 0) ignore_none = atoi(argv[i + 1]);
+  if (debug_mode > 1) printf("ignore_none: %d\n", ignore_none);
   if ((i = ArgPos((char *)"-lambda1", argc, argv)) > 0) lambda1 = atof(argv[i + 1]);
+  if (debug_mode > 1) printf("lambda1: %f\n", lambda1);
   if ((i = ArgPos((char *)"-lambda2", argc, argv)) > 0) lambda2 = atof(argv[i + 1]);
+  if (debug_mode > 1) printf("lambda2: %f\n", lambda2);
   if ((i = ArgPos((char *)"-cv_ratio", argc, argv)) > 0) cv_ratio = atof(argv[i + 1]);
+  if (debug_mode > 1) printf("cv_ratio: %f\n", cv_ratio);
   if ((i = ArgPos((char *)"-error_log", argc, argv)) > 0) error_log = atoi(argv[i + 1]);
+  if (debug_mode > 1) printf("error_log: %d\n", error_log);
 #ifdef DROPOUT
   if ((i = ArgPos((char *)"-dropout", argc, argv)) > 0) dropout = atof(argv[i + 1]) * DROPOUTRATIO;
+  if (debug_mode > 1) printf("dropout: %f\n", dropout * 1.0 / DROPOUTRATIO);
 #endif
   expTable = (real *)malloc((EXP_TABLE_SIZE + 1) * sizeof(real));
   sigTable = (real *)malloc((EXP_TABLE_SIZE + 1) * sizeof(real));
@@ -945,7 +962,7 @@ int main(int argc, char **argv) {
   TrainModel();
   if (debug_mode > 1) printf("\nLoading test file %s\n", test_file);
   LoadTestingData();
-  if (debug_mode > 1) printf("start Testing \n ");
+  if (debug_mode > 1) printf("Tuning threshold and Evaluating\n ");
   EvaluateModel();
   if (debug_mode > 1) printf("releasing memory\n");
   DestroyNet();
