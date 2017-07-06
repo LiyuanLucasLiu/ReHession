@@ -1,12 +1,12 @@
-BIN_DIR=../Bin
+BIN_DIR=./
 
 CC = gcc
 CFLAGS = -lm -pthread -O2 -Wall -funroll-loops
 
 all: ReHession 
 
-ReHession: ReHessionN.c
-	$(CC) ReHessionN.c -o ${BIN_DIR}/ReHession $(CFLAGS) -DDROPOUT -DACTIVE
+ReHession: ReHession.c
+	$(CC) ReHession.c -o ${BIN_DIR}/ReHession $(CFLAGS) -DDROPOUT -DACTIVE
 
 clean:
 	pushd ${BIN_DIR}

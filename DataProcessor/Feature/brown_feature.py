@@ -15,8 +15,8 @@ class BrownFeature(AbstractFeature):
                 self.mapping[items[1]] = items[0]
 
     def apply(self, sentence, mention, features):
-        for i in xrange(len(sentence['tokens'])):
-            word = get_lemma(sentence['tokens'][i], sentence['pos'][i])
+        for i in xrange(len(sentence.tokens)):
+            word = get_lemma(sentence.tokens[i], sentence.pos[i])
             if word in self.mapping:
                 cluster = self.mapping[word]
                 for l in self.len:

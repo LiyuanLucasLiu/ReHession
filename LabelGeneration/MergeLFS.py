@@ -1,4 +1,4 @@
-__author__ = 'S2free'
+__author__ = 'LucasL'
 
 import os
 import math
@@ -11,9 +11,9 @@ import numpy as np
 #re index the distant supervisions identified by -1
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('--intput_json', nargs='+', default=['/shared/data/ll2/CoType/data/source/KBP/raw_train.json'])
-    parser.add_argument('--output_json', nargs='+', default=['/shared/data/ll2/CoType/data/source/KBP/ntrain.json'])
-    parser.add_argument('--output_count', nargs='+', default=['/shared/data/ll2/CoType/data/source/KBP/col_count.csv'])
+    parser.add_argument('--intput_json', nargs='+', default=['./Data/source/KBP/raw_train.json'])
+    parser.add_argument('--output_json', nargs='+', default=['./Data/source/KBP/ntrain.json'])
+    parser.add_argument('--output_count', nargs='+', default=['./Data/source/KBP/col_count.csv'])
     args = parser.parse_args()
 
     assert(len(args.intput_json)==len(args.output_json))

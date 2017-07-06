@@ -1,13 +1,8 @@
-__author__ = 'S2free'
+__author__ = 'LucasL'
 
 # import sys
 import os
 import math
-# from nlp_parse_raw import parse
-# from postagger_parse import parse
-# from ner_feature import pipeline, filter, pipeline_test
-# from pruning_heuristics import prune
-# from statistic import supertype
 import unicodedata
 import argparse
 import json
@@ -15,8 +10,8 @@ import random
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('--input_txt', nargs='+', default=['/shared/data/ll2/CoType/data/source/KBP/chunked.religion.corpus'])
-    parser.add_argument('--output_txt', nargs='+', default=['/shared/data/ll2/CoType/data/source/KBP/raw_pos_em.json'])
+    parser.add_argument('--input_txt', nargs='+', default=['./Data/source/KBP/chunked.corpus'])
+    parser.add_argument('--output_txt', nargs='+', default=['./Data/source/KBP/raw_pos_em.json'])
     args = parser.parse_args()
 
     assert(len(args.input_txt)==len(args.output_txt))

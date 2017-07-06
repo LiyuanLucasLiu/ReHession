@@ -1,7 +1,6 @@
 import json
 from rel_mention import RelationMention, EntityMention, Sentence
 
-
 class MentionReader:
     """
     Mention reader. Cache one sentence in advance.

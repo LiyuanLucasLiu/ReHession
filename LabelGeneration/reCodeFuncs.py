@@ -1,4 +1,4 @@
-__author__ = 'S2free'
+__author__ = 'LucasL'
 
 import os
 import math
@@ -10,10 +10,10 @@ import random
 #re index the distant supervisions identified by -1
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('--intput_json', nargs='+', default=['/shared/data/ll2/CoType/data/source/KBP/full_raw_train.json'])
+    parser.add_argument('--intput_json', nargs='+', default=['./Data/source/KBP/full_raw_train.json'])
     parser.add_argument('--start_idx', type = int, nargs='+', default=[149])
-    parser.add_argument('--output_json', nargs='+', default=['/shared/data/ll2/CoType/data/source/KBP/raw_train.json'])
-    parser.add_argument('--output_new_map', nargs='+', default=['/shared/data/ll2/CoType/data/source/KBP/lf2num.json'])
+    parser.add_argument('--output_json', nargs='+', default=['./Data/source/KBP/raw_train.json'])
+    parser.add_argument('--output_new_map', nargs='+', default=['./Data/source/KBP/lf2num.json'])
     args = parser.parse_args()
 
     assert(len(args.start_idx)==len(args.output_json))

@@ -1,4 +1,4 @@
-__author__ = 'S2free'
+__author__ = 'LucasL'
 
 import os
 import math
@@ -9,9 +9,9 @@ import random
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('--intput_json', nargs='+', default=['/shared/data/ll2/CoType/data/source/KBP/raw_train.json'])
-    parser.add_argument('--intput_kb', nargs='+', default=['/shared/data/ll2/CoType/data/source/KBP/UIDtrain.json'])
-    parser.add_argument('--output_json', nargs='+', default=['/shared/data/ll2/CoType/data/source/KBP/full_raw_train.json'])
+    parser.add_argument('--intput_json', nargs='+', default=['./Data/source/KBP/raw_train.json'])
+    parser.add_argument('--intput_kb', nargs='+', default=['./Data/source/KBP/UIDtrain.json'])
+    parser.add_argument('--output_json', nargs='+', default=['./Data/source/KBP/full_raw_train.json'])
     parser.add_argument('--save_all', action="store_true")
     parser.add_argument('--print_every', type=int, default=10000)
     args = parser.parse_args()

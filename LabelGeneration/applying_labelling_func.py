@@ -1,4 +1,4 @@
-__author__ = 'S2free'
+__author__ = 'LucasL'
 
 import os
 import math
@@ -52,9 +52,9 @@ def find_end(tokens, poses, entities, first_idx, cur_idx, cur_pT, relationMentio
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('--intput_json', nargs='+', default=['/shared/data/ll2/CoType/data/source/KBP/raw_pos_em.json'])
-    parser.add_argument('--intput_lfs', nargs='+', default=['/shared/data/ll2/CoType/data/source/KBP/nlf.json'])
-    parser.add_argument('--output_json', nargs='+', default=['/shared/data/ll2/CoType/data/source/KBP/raw_train.json'])
+    parser.add_argument('--intput_json', nargs='+', default=['./Data/source/KBP/raw_pos_em.json'])
+    parser.add_argument('--intput_lfs', nargs='+', default=['./Data/source/KBP/nlf.json'])
+    parser.add_argument('--output_json', nargs='+', default=['./Data/source/KBP/raw_train.json'])
     parser.add_argument('--save_all', action="store_true")
     parser.add_argument('--print_every', type=int, default=10000)
     args = parser.parse_args()
