@@ -1,3 +1,4 @@
+//  Copyright 2013 Google Inc. All Rights Reserved.
 //
 //  Licensed under the Apache License, Version 2.0 (the "License");
 //  you may not use this file except in compliance with the License.
@@ -10,6 +11,7 @@
 //  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 //  See the License for the specific language governing permissions and
 //  limitations under the License.
+//  this file is further modified by LucasL to do feature embedding pretraining
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -24,7 +26,7 @@ typedef float real;
 #define MAX_EXP 6
 #define MAX_SENTENCE_LENGTH 1000
 #define MAX_CODE_LENGTH 40
-#define FREE(x) //if (x != NULL) {free(x);}
+#define FREE(x) if (x != NULL) {free(x);}
 #define CHECKNULL(x) if (x == NULL) {printf("Memory allocation failed\n"); exit(1);}
 #define NRAND next_random = next_random * (unsigned long long)25214903917 + 11;
 #define BWRITE(x,f) fwrite(&x , sizeof(real), 1, f);
