@@ -1,0 +1,134 @@
+{"reserved": "1", "PID": 0, "rule": ["1", "1"], "Texture": "founder of", "relationType": "/business/company/founders", "Type1": "ORGANIZATION", "Type2": "PERSON"}
+{"reserved": "0", "PID": 1, "rule": ["1", "1"], "Texture": "founder", "relationType": "/business/company/founders", "Type1": "ORGANIZATION", "Type2": "PERSON"}
+{"reserved": "1", "PID": 2, "rule": ["1", "1"], "Texture": "birthplace of", "relationType": "/people/person/place_of_birth", "Type1": "PERSON", "Type2": "LOCATION"}
+{"reserved": "0", "PID": 3, "rule": ["1", "1"], "Texture": "born in", "relationType": "/people/person/place_of_birth", "Type1": "PERSON", "Type2": "LOCATION"}
+{"reserved": "0", "PID": 4, "rule": ["1", "1"], "Texture": "born", "relationType": "/people/person/place_of_birth", "Type1": "PERSON", "Type2": "LOCATION"}
+{"reserved": "0", "PID": 5, "rule": ["1", "1"], "Texture": "died", "relationType": "/people/deceased_person/place_of_death", "Type1": "PERSON", "Type2": "LOCATION"}
+{"reserved": "0", "PID": 6, "rule": ["1", "1"], "Texture": "died in", "relationType": "/people/deceased_person/place_of_death", "Type1": "PERSON", "Type2": "LOCATION"}
+{"reserved": "0", "PID": 7, "rule": ["1", "1"], "Texture": "died at", "relationType": "/people/deceased_person/place_of_death", "Type1": "PERSON", "Type2": "LOCATION"}
+{"reserved": "0", "PID": 8, "rule": ["1", "1"], "Texture": "died", "relationType": "/people/deceased_person/place_of_death", "Type1": "PERSON", "Type2": "LOCATION"}
+{"reserved": "0", "PID": 9, "rule": ["1", "1"], "Texture": "the death of", "relationType": "/people/deceased_person/place_of_death", "Type1": "PERSON", "Type2": "LOCATION"}
+{"reserved": "0", "PID": 10, "rule": ["1", "1"], "Texture": "the deaths of", "relationType": "/people/deceased_person/place_of_death", "Type1": "PERSON", "Type2": "LOCATION"}
+{"reserved": "0", "PID": 11, "rule": ["1", "1"], "Texture": "death", "relationType": "/people/deceased_person/place_of_death", "Type1": "PERSON", "Type2": "LOCATION"}
+{"reserved": "0", "PID": 12, "rule": ["1", "1"], "Texture": "killed", "relationType": "/people/deceased_person/place_of_death", "Type1": "PERSON", "Type2": "LOCATION"}
+{"reserved": "0", "PID": 13, "rule": ["1", "1"], "Texture": "killed in", "relationType": "/people/deceased_person/place_of_death", "Type1": "PERSON", "Type2": "LOCATION"}
+{"reserved": "0", "PID": 14, "rule": ["1", "1"], "Texture": "killed at", "relationType": "/people/deceased_person/place_of_death", "Type1": "PERSON", "Type2": "LOCATION"}
+{"reserved": "0", "PID": 15, "rule": ["1", "1"], "Texture": "founders of", "relationType": "/business/company_shareholder/major_shareholder_of", "Type1": "PERSON", "Type2": "ORGANIZATION"}
+{"reserved": "1", "PID": 16, "rule": ["1", "1"], "Texture": "founders", "relationType": "/business/company_shareholder/major_shareholder_of", "Type1": "PERSON", "Type2": "ORGANIZATION"}
+{"reserved": "1", "PID": 17, "rule": ["1", "1"], "Texture": "founder", "relationType": "/business/company_shareholder/major_shareholder_of", "Type1": "PERSON", "Type2": "ORGANIZATION"}
+{"reserved": "1", "PID": 18, "rule": ["1", "1"], "Texture": "co-founder", "relationType": "/business/company_shareholder/major_shareholder_of", "Type1": "PERSON", "Type2": "ORGANIZATION"}
+{"reserved": "0", "PID": 19, "rule": ["1", "1"], "Texture": "downtown", "relationType": "/location/neighborhood/neighborhood_of", "Type1": "LOCATION", "Type2": "LOCATION"}
+{"reserved": "0", "PID": 20, "rule": ["1", "1"], "Texture": "neighborhood", "relationType": "/location/neighborhood/neighborhood_of", "Type1": "LOCATION", "Type2": "LOCATION"}
+{"reserved": "0", "PID": 21, "rule": ["1", "1"], "Texture": "neighborhoods", "relationType": "/location/neighborhood/neighborhood_of", "Type1": "LOCATION", "Type2": "LOCATION"}
+{"reserved": "0", "PID": 22, "rule": ["1", "1"], "Texture": "district", "relationType": "/location/neighborhood/neighborhood_of", "Type1": "LOCATION", "Type2": "LOCATION"}
+{"reserved": "0", "PID": 23, "rule": ["1", "1"], "Texture": "southern", "relationType": "/location/administrative_division/country", "Type1": "LOCATION", "Type2": "LOCATION"}
+{"reserved": "0", "PID": 24, "rule": ["1", "1"], "Texture": "including", "relationType": "/location/administrative_division/country", "Type1": "LOCATION", "Type2": "LOCATION"}
+{"reserved": "0", "PID": 25, "rule": ["1", "1"], "Texture": "President", "relationType": "/people/person/nationality", "Type1": "PERSON", "Type2": "LOCATION"}
+{"reserved": "0", "PID": 26, "rule": ["1", "1"], "Texture": "president", "relationType": "/people/person/nationality", "Type1": "PERSON", "Type2": "LOCATION"}
+{"reserved": "0", "PID": 27, "rule": ["1", "1"], "Texture": "minister", "relationType": "/people/person/nationality", "Type1": "PERSON", "Type2": "LOCATION"}
+{"reserved": "0", "PID": 28, "rule": ["1", "1"], "Texture": "Minister", "relationType": "/people/person/nationality", "Type1": "PERSON", "Type2": "LOCATION"}
+{"reserved": "0", "PID": 29, "rule": ["1", "1"], "Texture": "convert", "relationType": "/people/person/religion", "Type1": "PERSON", "Type2": "RELIGION"}
+{"reserved": "0", "PID": 30, "rule": ["1", "1"], "Texture": "converted", "relationType": "/people/person/religion", "Type1": "PERSON", "Type2": "RELIGION"}
+{"reserved": "0", "PID": 31, "rule": ["1", "1"], "Texture": "converted to", "relationType": "/people/person/religion", "Type1": "PERSON", "Type2": "RELIGION"}
+{"reserved": "0", "PID": 32, "rule": ["1", "1"], "Texture": "convert to", "relationType": "/people/person/religion", "Type1": "PERSON", "Type2": "RELIGION"}
+{"reserved": "0", "PID": 33, "rule": ["1", "1"], "Texture": "converts to", "relationType": "/people/person/religion", "Type1": "PERSON", "Type2": "RELIGION"}
+{"reserved": "1", "PID": 34, "rule": ["1", "1"], "Texture": "chairman of", "relationType": "/business/company/advisors", "Type1": "ORGANIZATION", "Type2": "PERSON"}
+{"reserved": "0", "PID": 35, "rule": ["1", "1"], "Texture": "chairman", "relationType": "/business/company/advisors", "Type1": "ORGANIZATION", "Type2": "PERSON"}
+{"reserved": "0", "PID": 36, "rule": ["1", "1"], "Texture": "Chairman", "relationType": "/business/company/advisors", "Type1": "ORGANIZATION", "Type2": "PERSON"}
+{"reserved": "1", "PID": 37, "rule": ["1", "1"], "Texture": "chief executive of", "relationType": "/business/company/advisors", "Type1": "ORGANIZATION", "Type2": "PERSON"}
+{"reserved": "1", "PID": 38, "rule": ["1", "1"], "Texture": "board member of", "relationType": "/business/company/advisors", "Type1": "ORGANIZATION", "Type2": "PERSON"}
+{"reserved": "1", "PID": 39, "rule": ["1", "1"], "Texture": "chief", "relationType": "/business/person/company", "Type1": "PERSON", "Type2": "ORGANIZATION"}
+{"reserved": "0", "PID": 40, "rule": ["1", "1"], "Texture": "chief executive of", "relationType": "/business/person/company", "Type1": "PERSON", "Type2": "ORGANIZATION"}
+{"reserved": "0", "PID": 41, "rule": ["1", "1"], "Texture": "chairman of", "relationType": "/business/person/company", "Type1": "PERSON", "Type2": "ORGANIZATION"}
+{"reserved": "1", "PID": 42, "rule": ["1", "1"], "Texture": "chairman", "relationType": "/business/person/company", "Type1": "PERSON", "Type2": "ORGANIZATION"}
+{"reserved": "0", "PID": 43, "rule": ["1", "1"], "Texture": "president of", "relationType": "/business/person/company", "Type1": "PERSON", "Type2": "ORGANIZATION"}
+{"reserved": "1", "PID": 44, "rule": ["1", "1"], "Texture": "president", "relationType": "/business/person/company", "Type1": "PERSON", "Type2": "ORGANIZATION"}
+{"reserved": "1", "PID": 45, "rule": ["1", "1"], "Texture": "professor", "relationType": "/business/person/company", "Type1": "PERSON", "Type2": "ORGANIZATION"}
+{"reserved": "0", "PID": 46, "rule": ["1", "1"], "Texture": "professor of", "relationType": "/business/person/company", "Type1": "PERSON", "Type2": "ORGANIZATION"}
+{"reserved": "0", "PID": 47, "rule": ["1", "1"], "Texture": "professor at", "relationType": "/business/person/company", "Type1": "PERSON", "Type2": "ORGANIZATION"}
+{"reserved": "1", "PID": 48, "rule": ["1", "1"], "Texture": "officer", "relationType": "/business/person/company", "Type1": "PERSON", "Type2": "ORGANIZATION"}
+{"reserved": "1", "PID": 49, "rule": ["1", "1"], "Texture": "founder", "relationType": "/business/person/company", "Type1": "PERSON", "Type2": "ORGANIZATION"}
+{"reserved": "0", "PID": 50, "rule": ["1", "1"], "Texture": "founder of", "relationType": "/business/person/company", "Type1": "PERSON", "Type2": "ORGANIZATION"}
+{"reserved": "1", "PID": 51, "rule": ["1", "1"], "Texture": "secretary", "relationType": "/business/person/company", "Type1": "PERSON", "Type2": "ORGANIZATION"}
+{"reserved": "0", "PID": 52, "rule": ["1", "1"], "Texture": "governor of", "relationType": "/business/person/company", "Type1": "PERSON", "Type2": "LOCATION"}
+{"reserved": "0", "PID": 53, "rule": ["1", "1"], "Texture": "head of", "relationType": "/business/person/company", "Type1": "PERSON", "Type2": "ORGANIZATION"}
+{"reserved": "1", "PID": 54, "rule": ["1", "1"], "Texture": "executives", "relationType": "/business/person/company", "Type1": "PERSON", "Type2": "ORGANIZATION"}
+{"reserved": "1", "PID": 55, "rule": ["1", "1"], "Texture": "economist", "relationType": "/business/person/company", "Type1": "PERSON", "Type2": "ORGANIZATION"}
+{"reserved": "1", "PID": 56, "rule": ["1", "1"], "Texture": "chief executive of", "relationType": "/business/company/major_shareholders", "Type1": "ORGANIZATION", "Type2": "PERSON"}
+{"reserved": "0", "PID": 57, "rule": ["1", "1"], "Texture": "chief executive", "relationType": "/business/company/major_shareholders", "Type1": "ORGANIZATION", "Type2": "PERSON"}
+{"reserved": "1", "PID": 58, "rule": ["1", "1"], "Texture": "chairman of", "relationType": "/business/company/major_shareholders", "Type1": "ORGANIZATION", "Type2": "PERSON"}
+{"reserved": "0", "PID": 59, "rule": ["1", "1"], "Texture": "chairman", "relationType": "/business/company/major_shareholders", "Type1": "ORGANIZATION", "Type2": "PERSON"}
+{"reserved": "1", "PID": 60, "rule": ["1", "1"], "Texture": "founder of", "relationType": "/business/company/major_shareholders", "Type1": "ORGANIZATION", "Type2": "PERSON"}
+{"reserved": "0", "PID": 61, "rule": ["1", "1"], "Texture": "founder", "relationType": "/business/company/major_shareholders", "Type1": "ORGANIZATION", "Type2": "PERSON"}
+{"reserved": "0", "PID": 62, "rule": ["1", "1"], "Texture": "capital", "relationType": "/location/country/capital", "Type1": "LOCATION", "Type2": "LOCATION"}
+{"reserved": "1", "PID": 63, "rule": ["1", "1"], "Texture": "capital of", "relationType": "/location/country/capital", "Type1": "LOCATION", "Type2": "LOCATION"}
+{"reserved": "0", "PID": 64, "rule": ["1", "1"], "Texture": "'s capital", "relationType": "/location/country/administrative_divisions", "Type1": "LOCATION", "Type2": "LOCATION"}
+{"reserved": "1", "PID": 65, "Texture": "son of", "rule": ["1", "1"], "relationType": "/people/person/children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 66, "Texture": "son named", "rule": ["1", "1"], "relationType": "/people/person/children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 67, "Texture": "his <JJ> son", "rule": ["1", "1"], "relationType": "/people/person/children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 68, "Texture": "her <JJ> son", "rule": ["1", "1"], "relationType": "/people/person/children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 69, "Texture": "their <JJ> son", "rule": ["2", "1"], "relationType": "/people/person/children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 70, "Texture": "'s <JJ> son", "rule": ["1", "1"], "relationType": "/people/person/children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 71, "Texture": "'s <JJ> parent", "rule": ["1", "1"], "relationType": "/people/person/children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 72, "Texture": "his <JJ> parent", "rule": ["1", "1"], "relationType": "/people/person/children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 73, "Texture": "her <JJ> parent", "rule": ["1", "1"], "relationType": "/people/person/children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 74, "Texture": "their <JJ> parent", "rule": ["n", "1"], "relationType": "/people/person/children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 75, "Texture": "'s <JJ> parents", "rule": ["1", "2"], "relationType": "/people/person/children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 76, "Texture": "his <JJ> parents", "rule": ["1", "2"], "relationType": "/people/person/children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 77, "Texture": "her <JJ> parents", "rule": ["1", "2"], "relationType": "/people/person/children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 78, "Texture": "their <JJ> parents", "rule": ["n", "2"], "relationType": "/people/person/children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 79, "Texture": "daughter of", "rule": ["1", "1"], "relationType": "/people/person/children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 80, "Texture": "daughter named", "rule": ["1", "1"], "relationType": "/people/person/children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 81, "Texture": "his <JJ> daughter", "rule": ["1", "1"], "relationType": "/people/person/children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 82, "Texture": "her <JJ> daughter", "rule": ["1", "1"], "relationType": "/people/person/children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 83, "Texture": "their <JJ> daughter", "rule": ["2", "1"], "relationType": "/people/person/children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 84, "Texture": "'s <JJ> daughter", "rule": ["1", "1"], "relationType": "/people/person/children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 85, "Texture": "'s <JJ> father", "rule": ["1", "1"], "relationType": "/people/person/children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 86, "Texture": "his <JJ> father", "rule": ["1", "1"], "relationType": "/people/person/children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 87, "Texture": "her <JJ> father", "rule": ["1", "1"], "relationType": "/people/person/children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 88, "Texture": "their <JJ> father", "rule": ["n", "1"], "relationType": "/people/person/children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 89, "Texture": "father of", "rule": ["1", "1"], "relationType": "/people/person/children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 90, "Texture": "'s <JJ> mother", "rule": ["1", "1"], "relationType": "/people/person/children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 91, "Texture": "his <JJ> mother", "rule": ["1", "1"], "relationType": "/people/person/children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 92, "Texture": "her <JJ> mother", "rule": ["1", "1"], "relationType": "/people/person/children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 93, "Texture": "their <JJ> mother", "rule": ["n", "1"], "relationType": "/people/person/children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 94, "Texture": "mother of", "rule": ["1", "1"], "relationType": "/people/person/children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 95, "Texture": "child of", "rule": ["1", "1"], "relationType": "/people/person/children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 96, "Texture": "child named", "rule": ["1", "1"], "relationType": "/people/person/children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 97, "Texture": "his <JJ> child", "rule": ["1", "1"], "relationType": "/people/person/children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 98, "Texture": "her <JJ> child", "rule": ["1", "1"], "relationType": "/people/person/children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 99, "Texture": "their <JJ> child", "rule": ["2", "1"], "relationType": "/people/person/children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 100, "Texture": "'s <JJ> child", "rule": ["1", "1"], "relationType": "/people/person/children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 101, "Texture": "children of", "rule": ["n", "1"], "relationType": "/people/person/children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 102, "Texture": "children named", "rule": ["1", "n"], "relationType": "/people/person/children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 103, "Texture": "his <JJ> children", "rule": ["1", "n"], "relationType": "/people/person/children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 104, "Texture": "her <JJ> children", "rule": ["1", "n"], "relationType": "/people/person/children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 105, "Texture": "their <JJ> children", "rule": ["2", "n"], "relationType": "/people/person/children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 106, "Texture": "'s <JJ> children", "rule": ["1", "n"], "relationType": "/people/person/children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 107, "Texture": "daughters of", "rule": ["n", "1"], "relationType": "/people/person/children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 108, "Texture": "daughters named", "rule": ["1", "n"], "relationType": "/people/person/children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 109, "Texture": "his <JJ> daughters", "rule": ["1", "n"], "relationType": "/people/person/children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 110, "Texture": "her <JJ> daughters", "rule": ["1", "n"], "relationType": "/people/person/children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 111, "Texture": "their <JJ> daughters", "rule": ["2", "n"], "relationType": "/people/person/children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 112, "Texture": "'s <JJ> daughters", "rule": ["1", "1"], "relationType": "/people/person/children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 113, "Texture": "sons of", "rule": ["n", "1"], "relationType": "/people/person/children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 114, "Texture": "sons named", "rule": ["1", "n"], "relationType": "/people/person/children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 115, "Texture": "his <JJ> sons", "rule": ["1", "n"], "relationType": "/people/person/children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 116, "Texture": "her <JJ> sons", "rule": ["1", "n"], "relationType": "/people/person/children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 117, "Texture": "their <JJ> sons", "rule": ["2", "n"], "relationType": "/people/person/children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 118, "Texture": "'s <JJ> sons", "rule": ["1", "n"], "relationType": "/people/person/children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 119, "Texture": "based in", "rule": ["1", "1"], "relationType": "/business/company/place_founded", "Type1": "ORGANIZATION", "Type2": "LOCATION"}
+{"reserved": "0", "PID": 120, "Texture": "including", "rule": ["1", "1"], "relationType": "/location/location/contains", "Type1": "LOCATION", "Type2": "LOCATION"}
+{"reserved": "0", "PID": 121, "Texture": "impossibletomatch", "rule": ["1", "1"], "relationType": "/people/ethnicity/people", "Type1": "PERSON", "Type2": "LOCATION"}
+{"reserved": "0", "PID": 122, "Texture": "impossibletomatch", "rule": ["1", "1"], "relationType": "/sports/sports_team/location", "Type1": "ORGANIZATION", "Type2": "LOCATION"}
+{"reserved": "0", "PID": 123, "Texture": "impossibletomatch", "rule": ["1", "1"], "relationType": "/business/company/industry", "Type1": "ORGANIZATION", "Type2": "LOCATION"}
+{"reserved": "0", "PID": 124, "Texture": "impossibletomatch", "rule": ["1", "1"], "relationType": "/sports/sports_team_location/teams", "Type1": "ORGANIZATION", "Type2": "LOCATION"}
+{"reserved": "0", "PID": 125, "Texture": "impossibletomatch", "rule": ["1", "1"], "relationType": "/people/ethnicity/geographic_distribution", "Type1": "ORGANIZATION", "Type2": "LOCATION"}
+{"reserved": "0", "PID": 126, "Texture": "impossibletomatch", "rule": ["1", "1"], "relationType": "/people/person/profession", "Type1": "PERSON", "Type2": "ORGANIZATION"}
+{"reserved": "0", "PID": 127, "rule": ["1", "1"], "Texture": "lived in", "relationType": "/people/person/place_lived", "Type1": "PERSON", "Type2": "LOCATION"}
+{"reserved": "0", "PID": 128, "rule": ["1", "1"], "Texture": "live in", "relationType": "/people/person/place_lived", "Type1": "PERSON", "Type2": "LOCATION"}
+{"reserved": "0", "PID": 129, "rule": ["1", "1"], "Texture": "living in", "relationType": "/people/person/place_lived", "Type1": "PERSON", "Type2": "LOCATION"}
+{"reserved": "0", "PID": 130, "rule": ["1", "1"], "Texture": "lives in", "relationType": "/people/person/place_lived", "Type1": "PERSON", "Type2": "LOCATION"}
+{"reserved": "0", "PID": 131, "rule": ["1", "1"], "Texture": "grew up in", "relationType": "/people/person/place_lived", "Type1": "PERSON", "Type2": "LOCATION"}
+{"reserved": "0", "PID": 132, "rule": ["1", "1"], "Texture": "moving to", "relationType": "/people/person/place_lived", "Type1": "PERSON", "Type2": "LOCATION"}
+{"reserved": "0", "PID": 133, "rule": ["1", "1"], "Texture": "moved to", "relationType": "/people/person/place_lived", "Type1": "PERSON", "Type2": "LOCATION"}

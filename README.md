@@ -17,9 +17,20 @@ We are in an early-release beta. Expect some adventures...
 
 - [Overview](#pipeline-overview)
 - [Data](#data)
+	- [Corpus](#corpus)
+	- [Patterns](#patterns)
+	- [Knowledge base](#KB)
 - [Labeling Functions](#labeling-functions)
+	- [KB based labeling functions](#kb-based)
+	- [Pattern based labeling functions](#pattern-based)
+	- [Inverse labeling functions](#inverse)
+	- [Processing KBP Dataset](#kbp-dataset)
 - [Feature Extraction](#feature-extraction)
+	- [brown clustering](#brown)
 - [Model Learning and Evaluation](#model-learning-and-evaluation)
+	- [encoding](#encoding)
+	- [compile](#compile)
+	- [execute](#execute)
 
 ## Pipeline Overview
 
@@ -34,6 +45,7 @@ And the pipeline of ReHession is:
 
 ## Labeling Functions
 
+###
 
 ## Feature Extraction
 

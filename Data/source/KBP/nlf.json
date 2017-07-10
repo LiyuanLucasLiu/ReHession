@@ -1,0 +1,149 @@
+{"reserved": "0", "PID": 0, "rule": ["1", "1"], "Texture": "founder of", "relationType": "per:religion", "Type1": "PERSON", "Type2": "RELIGION"}
+{"reserved": "1", "PID": 1, "rule": ["1", "1"], "Texture": "founder", "relationType": "per:religion", "Type1": "PERSON", "Type2": "RELIGION"}
+{"reserved": "0", "PID": 2, "rule": ["1", "1"], "Texture": "founders of", "relationType": "per:religion", "Type1": "PERSON", "Type2": "RELIGION"}
+{"reserved": "0", "PID": 3, "rule": ["1", "1"], "Texture": "converted", "relationType": "per:religion", "Type1": "PERSON", "Type2": "RELIGION"}
+{"reserved": "0", "PID": 4, "rule": ["1", "1"], "Texture": "converted to", "relationType": "per:religion", "Type1": "PERSON", "Type2": "RELIGION"}
+{"reserved": "0", "PID": 5, "rule": ["1", "1"], "Texture": "convert to", "relationType": "per:religion", "Type1": "PERSON", "Type2": "RELIGION"}
+{"reserved": "0", "PID": 6, "rule": ["1", "1"], "Texture": "converts to", "relationType": "per:religion", "Type1": "PERSON", "Type2": "RELIGION"}
+{"reserved": "0", "PID": 7, "Texture": "son of", "rule": ["1", "1"], "relationType": "per:parents", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 8, "Texture": "son named", "rule": ["1", "1"], "relationType": "per:parents", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 9, "Texture": "his <JJ> son", "rule": ["1", "1"], "relationType": "per:parents", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 10, "Texture": "her <JJ> son", "rule": ["1", "1"], "relationType": "per:parents", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 11, "Texture": "their <JJ> son", "rule": ["2", "1"], "relationType": "per:parents", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 12, "Texture": "'s <JJ> son", "rule": ["1", "1"], "relationType": "per:parents", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 13, "Texture": "'s <JJ> parent", "rule": ["1", "1"], "relationType": "per:parents", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 14, "Texture": "his <JJ> parent", "rule": ["1", "1"], "relationType": "per:parents", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 15, "Texture": "her <JJ> parent", "rule": ["1", "1"], "relationType": "per:parents", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 16, "Texture": "their <JJ> parent", "rule": ["n", "1"], "relationType": "per:parents", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 17, "Texture": "'s <JJ> parents", "rule": ["1", "2"], "relationType": "per:parents", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 18, "Texture": "his <JJ> parents", "rule": ["1", "2"], "relationType": "per:parents", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 19, "Texture": "her <JJ> parents", "rule": ["1", "2"], "relationType": "per:parents", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 20, "Texture": "their <JJ> parents", "rule": ["n", "2"], "relationType": "per:parents", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 21, "Texture": "daughter of", "rule": ["1", "1"], "relationType": "per:parents", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 22, "Texture": "daughter named", "rule": ["1", "1"], "relationType": "per:parents", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 23, "Texture": "his <JJ> daughter", "rule": ["1", "1"], "relationType": "per:parents", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 24, "Texture": "her <JJ> daughter", "rule": ["1", "1"], "relationType": "per:parents", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 25, "Texture": "their <JJ> daughter", "rule": ["2", "1"], "relationType": "per:parents", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 26, "Texture": "'s <JJ> daughter", "rule": ["1", "1"], "relationType": "per:parents", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 27, "Texture": "'s <JJ> father", "rule": ["1", "1"], "relationType": "per:parents", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 28, "Texture": "his <JJ> father", "rule": ["1", "1"], "relationType": "per:parents", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 29, "Texture": "her <JJ> father", "rule": ["1", "1"], "relationType": "per:parents", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 30, "Texture": "their <JJ> father", "rule": ["n", "1"], "relationType": "per:parents", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 31, "Texture": "father of", "rule": ["1", "1"], "relationType": "per:parents", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 32, "Texture": "'s <JJ> mother", "rule": ["1", "1"], "relationType": "per:parents", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 33, "Texture": "his <JJ> mother", "rule": ["1", "1"], "relationType": "per:parents", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 34, "Texture": "her <JJ> mother", "rule": ["1", "1"], "relationType": "per:parents", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 35, "Texture": "their <JJ> mother", "rule": ["n", "1"], "relationType": "per:parents", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 36, "Texture": "mother of", "rule": ["1", "1"], "relationType": "per:parents", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 37, "Texture": "child of", "rule": ["1", "1"], "relationType": "per:parents", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 38, "Texture": "child named", "rule": ["1", "1"], "relationType": "per:parents", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 39, "Texture": "his <JJ> child", "rule": ["1", "1"], "relationType": "per:parents", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 40, "Texture": "her <JJ> child", "rule": ["1", "1"], "relationType": "per:parents", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 41, "Texture": "their <JJ> child", "rule": ["2", "1"], "relationType": "per:parents", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 42, "Texture": "'s <JJ> child", "rule": ["1", "1"], "relationType": "per:parents", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 43, "Texture": "children of", "rule": ["n", "1"], "relationType": "per:parents", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 44, "Texture": "children named", "rule": ["1", "n"], "relationType": "per:parents", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 45, "Texture": "his <JJ> children", "rule": ["1", "n"], "relationType": "per:parents", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 46, "Texture": "her <JJ> children", "rule": ["1", "n"], "relationType": "per:parents", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 47, "Texture": "their <JJ> children", "rule": ["2", "n"], "relationType": "per:parents", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 48, "Texture": "'s <JJ> children", "rule": ["1", "n"], "relationType": "per:parents", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 49, "Texture": "daughters of", "rule": ["n", "1"], "relationType": "per:parents", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 50, "Texture": "daughters named", "rule": ["1", "n"], "relationType": "per:parents", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 51, "Texture": "his <JJ> daughters", "rule": ["1", "n"], "relationType": "per:parents", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 52, "Texture": "her <JJ> daughters", "rule": ["1", "n"], "relationType": "per:parents", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 53, "Texture": "their <JJ> daughters", "rule": ["2", "n"], "relationType": "per:parents", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 54, "Texture": "'s <JJ> daughters", "rule": ["1", "1"], "relationType": "per:parents", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 55, "Texture": "sons of", "rule": ["n", "1"], "relationType": "per:parents", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 56, "Texture": "sons named", "rule": ["1", "n"], "relationType": "per:parents", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 57, "Texture": "his <JJ> sons", "rule": ["1", "n"], "relationType": "per:parents", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 58, "Texture": "her <JJ> sons", "rule": ["1", "n"], "relationType": "per:parents", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 59, "Texture": "their <JJ> sons", "rule": ["2", "n"], "relationType": "per:parents", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 60, "Texture": "'s <JJ> sons", "rule": ["1", "n"], "relationType": "per:parents", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 61, "Texture": "lived in", "rule": ["1", "1"], "relationType": "per:countries_of_residence", "Type1": "PERSON", "Type2": "LOCATION"}
+{"reserved": "0", "PID": 62, "Texture": "live in", "rule": ["1", "1"], "relationType": "per:countries_of_residence", "Type1": "PERSON", "Type2": "LOCATION"}
+{"reserved": "0", "PID": 63, "Texture": "living in", "rule": ["1", "1"], "relationType": "per:countries_of_residence", "Type1": "PERSON", "Type2": "LOCATION"}
+{"reserved": "0", "PID": 64, "Texture": "lives in", "rule": ["1", "1"], "relationType": "per:countries_of_residence", "Type1": "PERSON", "Type2": "LOCATION"}
+{"reserved": "0", "PID": 65, "Texture": "grew up in", "rule": ["1", "1"], "relationType": "per:countries_of_residence", "Type1": "PERSON", "Type2": "LOCATION"}
+{"reserved": "0", "PID": 66, "Texture": "moving to", "rule": ["1", "1"], "relationType": "per:countries_of_residence", "Type1": "PERSON", "Type2": "LOCATION"}
+{"reserved": "0", "PID": 67, "Texture": "moved to", "rule": ["1", "1"], "relationType": "per:countries_of_residence", "Type1": "PERSON", "Type2": "LOCATION"}
+{"reserved": "0", "PID": 68, "Texture": "born in", "rule": ["1", "1"], "relationType": "per:country_of_birth", "Type1": "PERSON", "Type2": "LOCATION"}
+{"reserved": "0", "PID": 69, "Texture": "born", "rule": ["1", "1"], "relationType": "per:country_of_birth", "Type1": "PERSON", "Type2": "LOCATION"}
+{"reserved": "1", "PID": 70, "Texture": "birthplace of", "rule": ["1", "1"], "relationType": "per:country_of_birth", "Type1": "PERSON", "Type2": "LOCATION"}
+{"reserved": "0", "PID": 71, "Texture": "died in", "rule": ["1", "1"], "relationType": "per:country_of_death", "Type1": "PERSON", "Type2": "LOCATION"}
+{"reserved": "0", "PID": 72, "Texture": "died at", "rule": ["1", "1"], "relationType": "per:country_of_death", "Type1": "PERSON", "Type2": "LOCATION"}
+{"reserved": "0", "PID": 73, "Texture": "died", "rule": ["1", "1"], "relationType": "per:country_of_death", "Type1": "PERSON", "Type2": "LOCATION"}
+{"reserved": "0", "PID": 74, "Texture": "killed in", "rule": ["1", "1"], "relationType": "per:country_of_death", "Type1": "PERSON", "Type2": "LOCATION"}
+{"reserved": "0", "PID": 75, "Texture": "killed at", "rule": ["1", "1"], "relationType": "per:country_of_death", "Type1": "PERSON", "Type2": "LOCATION"}
+{"reserved": "0", "PID": 76, "Texture": "killed", "rule": ["1", "1"], "relationType": "per:country_of_death", "Type1": "PERSON", "Type2": "LOCATION"}
+{"reserved": "1", "PID": 77, "Texture": "son of", "rule": ["1", "1"], "relationType": "per:children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 78, "Texture": "son named", "rule": ["1", "1"], "relationType": "per:children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 79, "Texture": "his <JJ> son", "rule": ["1", "1"], "relationType": "per:children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 80, "Texture": "her <JJ> son", "rule": ["1", "1"], "relationType": "per:children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 81, "Texture": "their <JJ> son", "rule": ["2", "1"], "relationType": "per:children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 82, "Texture": "'s <JJ> son", "rule": ["1", "1"], "relationType": "per:children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 83, "Texture": "'s <JJ> parent", "rule": ["1", "1"], "relationType": "per:children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 84, "Texture": "his <JJ> parent", "rule": ["1", "1"], "relationType": "per:children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 85, "Texture": "her <JJ> parent", "rule": ["1", "1"], "relationType": "per:children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 86, "Texture": "their <JJ> parent", "rule": ["n", "1"], "relationType": "per:children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 87, "Texture": "'s <JJ> parents", "rule": ["1", "2"], "relationType": "per:children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 88, "Texture": "his <JJ> parents", "rule": ["1", "2"], "relationType": "per:children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 89, "Texture": "her <JJ> parents", "rule": ["1", "2"], "relationType": "per:children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 90, "Texture": "their <JJ> parents", "rule": ["n", "2"], "relationType": "per:children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 91, "Texture": "daughter of", "rule": ["1", "1"], "relationType": "per:children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 92, "Texture": "daughter named", "rule": ["1", "1"], "relationType": "per:children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 93, "Texture": "his <JJ> daughter", "rule": ["1", "1"], "relationType": "per:children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 94, "Texture": "her <JJ> daughter", "rule": ["1", "1"], "relationType": "per:children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 95, "Texture": "their <JJ> daughter", "rule": ["2", "1"], "relationType": "per:children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 96, "Texture": "'s <JJ> daughter", "rule": ["1", "1"], "relationType": "per:children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 97, "Texture": "'s <JJ> father", "rule": ["1", "1"], "relationType": "per:children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 98, "Texture": "his <JJ> father", "rule": ["1", "1"], "relationType": "per:children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 99, "Texture": "her <JJ> father", "rule": ["1", "1"], "relationType": "per:children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 100, "Texture": "their <JJ> father", "rule": ["n", "1"], "relationType": "per:children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 101, "Texture": "father of", "rule": ["1", "1"], "relationType": "per:children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 102, "Texture": "'s <JJ> mother", "rule": ["1", "1"], "relationType": "per:children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 103, "Texture": "his <JJ> mother", "rule": ["1", "1"], "relationType": "per:children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 104, "Texture": "her <JJ> mother", "rule": ["1", "1"], "relationType": "per:children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 105, "Texture": "their <JJ> mother", "rule": ["n", "1"], "relationType": "per:children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 106, "Texture": "mother of", "rule": ["1", "1"], "relationType": "per:children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 107, "Texture": "child of", "rule": ["1", "1"], "relationType": "per:children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 108, "Texture": "child named", "rule": ["1", "1"], "relationType": "per:children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 109, "Texture": "his <JJ> child", "rule": ["1", "1"], "relationType": "per:children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 110, "Texture": "her <JJ> child", "rule": ["1", "1"], "relationType": "per:children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 111, "Texture": "their <JJ> child", "rule": ["2", "1"], "relationType": "per:children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 112, "Texture": "'s <JJ> child", "rule": ["1", "1"], "relationType": "per:children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 113, "Texture": "children of", "rule": ["n", "1"], "relationType": "per:children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 114, "Texture": "children named", "rule": ["1", "n"], "relationType": "per:children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 115, "Texture": "his <JJ> children", "rule": ["1", "n"], "relationType": "per:children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 116, "Texture": "her <JJ> children", "rule": ["1", "n"], "relationType": "per:children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 117, "Texture": "their <JJ> children", "rule": ["2", "n"], "relationType": "per:children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 118, "Texture": "'s <JJ> children", "rule": ["1", "n"], "relationType": "per:children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 119, "Texture": "daughters of", "rule": ["n", "1"], "relationType": "per:children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 120, "Texture": "daughters named", "rule": ["1", "n"], "relationType": "per:children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 121, "Texture": "his <JJ> daughters", "rule": ["1", "n"], "relationType": "per:children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 122, "Texture": "her <JJ> daughters", "rule": ["1", "n"], "relationType": "per:children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 123, "Texture": "their <JJ> daughters", "rule": ["2", "n"], "relationType": "per:children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 124, "Texture": "'s <JJ> daughters", "rule": ["1", "1"], "relationType": "per:children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 125, "Texture": "sons of", "rule": ["n", "1"], "relationType": "per:children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 126, "Texture": "sons named", "rule": ["1", "n"], "relationType": "per:children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 127, "Texture": "his <JJ> sons", "rule": ["1", "n"], "relationType": "per:children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 128, "Texture": "her <JJ> sons", "rule": ["1", "n"], "relationType": "per:children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 129, "Texture": "their <JJ> sons", "rule": ["2", "n"], "relationType": "per:children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "0", "PID": 130, "Texture": "'s <JJ> sons", "rule": ["1", "n"], "relationType": "per:children", "Type1": "PERSON", "Type2": "PERSON"}
+{"reserved": "1", "PID": 131, "Texture": "subsidiary of", "rule": ["1", "1"], "relationType": "org:subsidiaries", "Type1": "ORGANIZATION", "Type2": "ORGANIZATION"}
+{"reserved": "0", "PID": 132, "Texture": "'s subsidiary", "rule": ["1", "1"], "relationType": "org:subsidiaries", "Type1": "ORGANIZATION", "Type2": "ORGANIZATION"}
+{"reserved": "1", "PID": 133, "Texture": "owned by", "rule": ["1", "1"], "relationType": "org:subsidiaries", "Type1": "ORGANIZATION", "Type2": "ORGANIZATION"}
+{"reserved": "0", "PID": 134, "Texture": "joined", "rule": ["1", "1"], "relationType": "per:employee_or_member_of", "Type1": "PERSON", "Type2": "ORGANIZATION"}
+{"reserved": "0", "PID": 135, "Texture": "member of", "rule": ["1", "1"], "relationType": "per:employee_or_member_of", "Type1": "PERSON", "Type2": "ORGANIZATION"}
+{"reserved": "0", "PID": 136, "Texture": "part of", "rule": ["1", "1"], "relationType": "org:member_of", "Type1": "ORGANIZATION", "Type2": "ORGANIZATION"}
+{"reserved": "0", "PID": 137, "Texture": "founder", "rule": ["1", "1"], "relationType": "org:founded_by", "Type1": "ORGANIZATION", "Type2": "PERSON"}
+{"reserved": "1", "PID": 138, "Texture": "founder of", "rule": ["1", "1"], "relationType": "org:founded_by", "Type1": "ORGANIZATION", "Type2": "PERSON"}
+{"reserved": "0", "PID": 139, "Texture": "founded by", "rule": ["1", "1"], "relationType": "org:founded_by", "Type1": "ORGANIZATION", "Type2": "PERSON"}
+{"reserved": "0", "PID": 140, "Texture": "sold to", "rule": ["1", "1"], "relationType": "org:shareholders", "Type1": "ORGANIZATION", "Type2": "PERSON"}
+{"reserved": "0", "PID": 141, "Texture": "sold to", "rule": ["1", "1"], "relationType": "org:shareholders", "Type1": "ORGANIZATION", "Type2": "ORGANIZATION"}
+{"reserved": "1", "PID": 142, "Texture": "owned by", "rule": ["1", "1"], "relationType": "org:shareholders", "Type1": "ORGANIZATION", "Type2": "PERSON"}
+{"reserved": "1", "PID": 143, "Texture": "owned by", "rule": ["1", "1"], "relationType": "org:shareholders", "Type1": "ORGANIZATION", "Type2": "ORGANIZATION"}
+{"reserved": "1", "PID": 144, "Texture": "owns", "rule": ["1", "1"], "relationType": "org:shareholders", "Type1": "PERSON", "Type2": "ORGANIZATION"}
+{"reserved": "1", "PID": 145, "Texture": "owns", "rule": ["1", "1"], "relationType": "org:shareholders", "Type1": "ORGANIZATION", "Type2": "ORGANIZATION"}
+{"reserved": "1", "PID": 146, "Texture": "shareholder of", "rule": ["1", "1"], "relationType": "org:shareholders", "Type1": "PERSON", "Type2": "ORGANIZATION"}
+{"reserved": "1", "PID": 147, "Texture": "shareholder of", "rule": ["1", "1"], "relationType": "org:shareholders", "Type1": "ORGANIZATION", "Type2": "ORGANIZATION"}
+{"reserved": "1", "PID": 148, "Texture": "unit of", "rule": ["1", "1"], "relationType": "org:parents", "Type1": "ORGANIZATION", "Type2": "ORGANIZATION"}
