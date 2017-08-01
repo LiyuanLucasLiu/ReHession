@@ -13,7 +13,7 @@ ReHession conducts Relation Extraction, featuring:
 - infers true label from noisy labels in a context-aware manner
 - true label discovery and relation extraction can mutually enhance each other
 
-We are in an early-release beta. Expect some adventures...
+This ReadMe are in an early-release beta. Expect some adventures...
 
 - [Overview](#pipeline-overview)
 - [Data](#data)
