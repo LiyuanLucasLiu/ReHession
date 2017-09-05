@@ -308,6 +308,13 @@ header {
   -ms-box-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
 }
 
+#reference {
+  width: 100%;
+
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-size: 14px;
+}
+
 #footer_wrap {
   background: #212121;
 }
