@@ -30,6 +30,7 @@ This ReadMe are in an early-release beta. Expect some adventures...
 	- [encoding](#encoding)
 	- [compile](#compile)
 	- [execute](#execute)
+- [Reference](#reference)
 
 ## Pipeline Overview
 
@@ -119,4 +120,16 @@ The Execute commands for KBP dataset and NYT dataset are (which is also saved in
 ```
 ./Model/ReHession -train ./Data/intermediate/KBP/train.data -test ./Data/intermediate/KBP/test.data -none_idx 6 -instances 225977 -test_instances 2111
 ./Model/ReHession -train ./Data/intermediate/NYT/train.data -test ./Data/intermediate/NYT/test.data -none_idx 0 -instances 530767 -test_instances 3803
+```
+
+## Reference
+
+Please cite the following paper if you find the codes and datasets useful:
+```
+@inproceedings{Liu2017rehession,
+ title={Heterogeneous Supervision for Relation Extraction: A Representation Learning Approach},
+ author={Liu, Liyuan and Ren, Xiang and Zhu, Qi and Zhi, Shi and Gui, Huan and Ji, Heng and Han, Jiawei},
+ booktitle={Proc. EMNLP},
+ year={2017}
+}
 ```
