@@ -10,7 +10,7 @@ import random
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('--input_txt', nargs='+', default=['./Data/source/KBP/chunked.corpus'])
+    parser.add_argument('--input_txt', nargs='+', default=['./Data/source/KBP/corpus.txt'])
     parser.add_argument('--output_txt', nargs='+', default=['./Data/source/KBP/raw_pos_em.json'])
     args = parser.parse_args()
 
