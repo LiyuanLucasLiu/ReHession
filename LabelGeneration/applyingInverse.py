@@ -26,7 +26,7 @@ if __name__ == "__main__":
 					nrm = rm
 					label = True
 					for anno in rm[3]:
-						if anno[1] <= args.range_max and anno[1] >= args.range_min:
+						if anno[1] <= args.range_max[ind] and anno[1] >= args.range_min[ind]:
 							label = False
 							break
 					if label:
