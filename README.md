@@ -13,7 +13,15 @@ ReHession conducts Relation Extraction, featuring:
 - infers true label from noisy labels in a context-aware manner
 - true label discovery and relation extraction can mutually enhance each other
 
-This ReadMe are in an early-release beta. Expect some adventures...
+# Quick Start
+A demo is provided and can be execurated by:
+```
+bash demo_KBP.sh
+```
+
+# Details
+
+This Project are in an early-release beta. Expect some adventures...
 
 - [Overview](#pipeline-overview)
 - [Data](#data)
@@ -89,10 +97,15 @@ python LabelGeneration/MergeLFS.py
 python LabelGeneration/cal_Mention_Distance.py
 python LabelGeneration/applyingInverse.py
 ```
-These commands requires original data to be stored in `/Data/source/KBP/`, while the specific requirements are stored in the default setting. 
+These commands requires original data to be stored in `Data/source/KBP/`, while the specific requirements are stored in the default setting. 
 
 ## Feature Extraction
-With dataset with annotation and brown clustering file stored in the path `/Data/intermediate/KBP/`, the feature extraction can be performed by 
+We provided the training files used in our experiments, which is saved in the path `Data/intermediate/`. Also we wrote a demo scripts for the whole feature extraction, model learning and evaluation pipeline. You can simply execute it by
+```
+bash demo_KBP.sh
+```
+
+With dataset with annotation and brown clustering file stored in the path `Data/intermediate/KBP/`, the feature extraction can be performed by
 ```
 python DataProcessor/relation_feature_generation.py
 ```
@@ -116,7 +129,7 @@ Run `make` under the folder of `Model` would compile the model
 
 ### Execute
 
-The Execute commands for KBP dataset and NYT dataset are (which is also saved in train.sh):
+The Execute commands for KBP dataset and NYT dataset are:
 ```
 ./Model/ReHession -train ./Data/intermediate/KBP/train.data -test ./Data/intermediate/KBP/test.data -none_idx 6 -instances 225977 -test_instances 2111
 ./Model/ReHession -train ./Data/intermediate/NYT/train.data -test ./Data/intermediate/NYT/test.data -none_idx 0 -instances 530767 -test_instances 3803
